@@ -4,7 +4,7 @@ import MateriSemua from './Materi/MateriSemua';
 
 const BelajarPage = () => {
   return (
-    <div>
+    <div className="bg-[url('/assets/bg-belajar.png')]">
       <MulaiBelajar />
       <MateriSaya />
       <MateriSemua />
