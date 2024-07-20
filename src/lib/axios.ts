@@ -1,14 +1,14 @@
 import axios from 'axios';
-import { BASE_URL } from '@/datas/config';
+import { API_URL } from '@/datas/config';
 import { AuthService } from '@/services/auth';
 
 const fetcher = axios.create({
-  baseURL: `${BASE_URL}/api`,
+  baseURL: `${API_URL}/api`,
   withCredentials: true
 });
 
 const fetcherAuth = axios.create({
-  baseURL: `${BASE_URL}/api`,
+  baseURL: `${API_URL}/api`,
   withCredentials: true
 });
 
