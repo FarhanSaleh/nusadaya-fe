@@ -3,12 +3,12 @@ import { API_URL } from '@/datas/config';
 import { AuthService } from '@/services/auth';
 
 const fetcher = axios.create({
-  baseURL: `${API_URL}/api`,
+  baseURL: `https://api-nusadaya.vercel.app/api`,
   withCredentials: true
 });
 
 const fetcherAuth = axios.create({
-  baseURL: `${API_URL}/api`,
+  baseURL: `https://api-nusadaya.vercel.app/api`,
   withCredentials: true
 });
 
